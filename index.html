@@ -10,7 +10,7 @@
 </head>
 <body>
 <h1>Welcome to Gen AI Tool POC</h1>
-<h5>Click on the button below to trigger an event to Salesforce: </h5>
+<h5>Click on the button below to trigger an event to Salesforce</h5>
 <button id="triggerButton">Trigger Event</button>
 
 <script>
@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Add a click event listener to the button
     triggerButton.addEventListener('click', function() {
         // Send a message to the parent window
-        console.log('index.html: Button Clicked'):
+        console.log('index.html Button Clicked'):
         window.parent.postMessage('buttonClicked', '*');
     });
 });
