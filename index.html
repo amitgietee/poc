@@ -20,6 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Add a click event listener to the button
     triggerButton.addEventListener('click', function() {
         // Send a message to the parent window
+        console.log('index.html: Button Clicked'):
         window.parent.postMessage('buttonClicked', '*');
     });
 });
